@@ -40,6 +40,10 @@ body {
     text-align: right;
 }
 
+.text-center {
+    text-align: center;
+}
+
 
 
 
@@ -80,13 +84,64 @@ header ul li a:hover {
 }
 
 .btn {
+    text-decoration: none;
+}
+
+.btn.btn-light {
     background-color: white;
-    color: black;
+    color: #23272a;
+}
+
+.btn.btn-dark {
+    background-color: #23272a;
+    color: white;
+}
+
+.btn.btn-tiny {
     padding: 10px 15px;
     border-radius: 25px;
-    text-decoration: none;
+}
+
+.btn.btn-big {
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-size: 1.1em;
 }
 
 .btn:hover {
     color: #255ee9;
+}
+
+
+
+
+/* jumbotron */
+
+.jumbotron {
+    height: 550px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.jumbotron .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.jumbotron h1 {
+    font-size: 60px;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+
+.jumbotron p {
+    line-height: 1.5em;
+    font-size: 19px;
+    margin-bottom: 30px;
+    font-weight: 600;
 }
