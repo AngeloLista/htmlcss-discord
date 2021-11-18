@@ -66,6 +66,10 @@ img {
     padding: 70px;
 }
 
+.b-top {
+    border-top: 1px solid #8ea1e1;
+}
+
 .text-right {
     text-align: right;
 }
@@ -76,6 +80,10 @@ img {
 
 .bg-gray {
     background-color: #f6f6f6;
+}
+
+.bg-black {
+    background-color: #23272a;
 }
 
 /* Header */
@@ -223,4 +231,42 @@ main p {
     position: relative;
     top: -50px;
     transform: scaley(-1);
+}
+
+/* Footer */
+
+footer h2,
+footer h3 {
+    color: #8ea1e1;
+}
+
+footer h2 {
+    font-size: 35px;
+}
+
+footer h3 {
+    font-size: 16px;
+}
+
+footer ul li {
+    list-style-type: none;
+    margin-top: 13px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    color: #8ea1e1;
+}
+
+
+#bot-footer {
+    border-top: 1px solid #255ee9;
 }
