@@ -74,6 +74,10 @@ img {
     text-align: center;
 }
 
+.bg-gray {
+    background-color: #f6f6f6;
+}
+
 /* Header */
 
 header {
@@ -125,6 +129,11 @@ header ul li a:hover {
     color: white;
 }
 
+.btn.btn-purple {
+    background-color: #8ea1e1;
+    color: white;
+}
+
 .btn.btn-tiny {
     padding: 10px 15px;
     border-radius: 25px;
@@ -140,6 +149,10 @@ header ul li a:hover {
 
 .btn:hover {
     color: #255ee9;
+}
+
+.btn.btn-purple:hover {
+    color: #292841;
 }
 
 
@@ -187,15 +200,27 @@ main h2 {
     margin: 30px 0;
 }
 
+main h3 {
+    font-size: 30px;
+    margin: 30px 0;
+    background-image: url('../img/stars.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 main p {
     font-size: 19px;
     line-height: 1.3em;
 }
 
+.wave {
+    position: relative;
+    top: 53px;
+}
 
-
-
-
-
-
-
+.wave-reverse {
+    position: relative;
+    top: -50px;
+    transform: scaley(-1);
+}
