@@ -10,6 +10,10 @@ body {
     font-family: sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 .clearfix::after {
     display: table;
     clear: both;
@@ -22,7 +26,7 @@ body {
     margin: 0 auto;
 }
 
-.float-left {
+.col {
     float: left;
 }
 
@@ -56,6 +60,10 @@ body {
 
 .w-75 {
     width: 75%;
+}
+
+.p-70 {
+    padding: 70px;
 }
 
 .text-right {
@@ -170,34 +178,24 @@ header ul li a:hover {
 
 /* Main */
 
-/* chat-overview */
-.overview-page {
-    height: 550px;
-    position: relative;
+main section {
+    margin: 50px 0;
 }
 
-.overview-image {
-    height: 100%;
-    vertical-align: middle;
+main h2 {
+    font-size: 48px;
+    margin: 30px 0;
 }
 
-.overview-text {
-    height: 100%;
-    vertical-align: middle;
-    position: relative;
-    top: 150px;
+main p {
+    font-size: 19px;
+    line-height: 1.3em;
 }
 
-.overview-page h2 {
-    font-size: 43px;
-    margin-bottom: 10px;
-}
 
-.overview-page p {
-    font-size: 1.1em;
-    line-height: 1.5em;
-}
 
-.wrapper {
-    margin: auto
-}
+
+
+
+
+
