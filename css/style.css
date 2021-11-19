@@ -277,7 +277,7 @@ hr {
 
 
 #language-selector {
-    margin: 15px 0;
+    margin: 19px 0;
 }
 
 #language-selector span {
@@ -286,6 +286,17 @@ hr {
 
 .language-flag {
     width: 24px;
-    margin-right: 3px;
+    margin-right: 5px;
     vertical-align: middle;
+}
+
+#footer-separator {
+    height: 1px;
+    background-color: #8ea1e1;
+    margin: 0 70px;
+}
+
+#footer-logo,
+#register-button {
+    padding: 35px 70px;
 }
