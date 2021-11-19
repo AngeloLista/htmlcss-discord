@@ -290,13 +290,23 @@ hr {
     vertical-align: middle;
 }
 
-#footer-separator {
-    height: 1px;
+footer hr {
     background-color: #8ea1e1;
     margin: 0 70px;
+    border: none;
+    height: 1px;
 }
+
 
 #footer-logo,
 #register-button {
     padding: 35px 70px;
+}
+
+
+footer hr {
+    background-color: #8ea1e1;
+    margin: 0 70px;
+    border: none;
+    height: 1px;
 }
