@@ -8,6 +8,7 @@
     <meta name="description" content="Discord Homepage">
     
     <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' integrity='sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==' crossorigin='anonymous'/>
     <title>Discord</title>
 </head>
 
@@ -61,6 +62,7 @@
     </header>
     
     <main>
+        <!-- Chat overview -->
         <section>
             <div class="container clearfix">
                 <div class="col w-60 p-70">
@@ -72,9 +74,10 @@
                 </div>
             </div>
         </section>
-
+        <!-- Wave -->
         <svg class="wave" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path class="wavePath-haxJK1 animationPaused-2hZ4IO" d="M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z" fill="#f6f6f6"></path></svg>
 
+        <!-- Voice Chat Overview -->
         <section class="bg-gray">
             <div class="container clearfix">
                 <div class="col w-40 p-70">
@@ -86,9 +89,11 @@
                 </div>
             </div>
         </section>
-        
+
+        <!-- Reversed wave -->
         <svg class="wave-reverse" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path class="wavePath-haxJK1 animationPaused-2hZ4IO" d="M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z" fill="#f6f6f6"></path></svg>
 
+        <!-- Community Overview -->
         <section>
             <div class="container clearfix">
                 <div class="col w-60 p-70">
@@ -101,8 +106,10 @@
             </div>
         </section>
 
+        <!-- Wave -->
         <svg class="wave" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path class="wavePath-haxJK1 animationPaused-2hZ4IO" d="M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z" fill="#f6f6f6"></path></svg>
 
+        <!-- ScreenShare Overview -->
         <section class="text-center bg-gray big-overviewpage">
             <div class="container clearfix p-70">
                 <h2>Tecnologia affidabile per tenersi in contatto</h2>
@@ -120,11 +127,23 @@
     </main>
 
     <footer>
+        <!-- Top Footer -->
         <section class="bg-black">
             <div class="container clearfix">
                 <!-- Social -->
                 <div class="col w-40 p-70">
                     <h2>Il tuo posto per parlare</h2>
+                    <div id="language-selector">
+                        <img class="language-flag" src="img/ita.png" alt="Italian Language">
+                        <span>Italiano &#709;</span>
+                    </div>
+                    <div class="social-contacts">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                      
                 </div>
                 <!-- Menu -->
                 <div class="col w-60 p-70 clearfix">
@@ -182,17 +201,21 @@
         </section>
 
 
+        <!-- Bottom Footer -->
         <section class="bg-black">
-            <div class="container clearfix">
-                <div id="bot-footer p-70">
-                    <div class="col w-50">
+                <div class="container clearfix">
+
+                    <!-- Logo -->
+                    <div class="col w-50 p-70">
                         <img src="img/logo.svg" alt="Logo">
                     </div>
-                    <div class="col w-50 text-right">
+
+                    <!-- Register Button -->
+                    <div class="col w-50 p-70 text-right">
                         <a href="#" class="btn btn-tiny btn-purple">Registrati</a>
                     </div>
+
                 </div>
-            </div>
         </section>
 
     </footer>
