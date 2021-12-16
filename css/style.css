@@ -228,8 +228,6 @@ main p {
 }
 
 .wave-reverse {
-    position: relative;
-    top: -50px;
     transform: scaley(-1);
 }
 
